@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_near"
+        android:title="@string/title_near" />
+
+    <item
+        android:id="@+id/navigation_browse"
+        android:title="@string/title_browse" />
+
+    <item
+        android:id="@+id/navigation_my_page"
+        android:title="@string/title_my_page" />
+
+</menu>

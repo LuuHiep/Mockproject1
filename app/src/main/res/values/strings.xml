@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Meetup</string>
+    <string name="title_home">Home</string>
+    <string name="title_near">Near</string>
+    <string name="title_browse">Browse</string>
+    <string name="title_my_page">My Page</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
