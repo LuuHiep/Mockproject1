@@ -29,6 +29,6 @@ public abstract class BaseFragment<T extends BasePresenter> extends Fragment {
         presenter = initPresenter();
         initView(savedInstanceState, rootView);
         initData(savedInstanceState);
-        return super.onCreateView(inflater, container, savedInstanceState);
+        return rootView;
     }
 }

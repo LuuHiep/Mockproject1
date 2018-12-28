@@ -4,4 +4,8 @@
     android:background="#00ff2a"
     android:layout_height="match_parent">
 
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvNews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>
