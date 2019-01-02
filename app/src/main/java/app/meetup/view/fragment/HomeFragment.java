@@ -5,16 +5,13 @@ import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 
 import app.meetup.R;
 import app.meetup.adapter.HomePagerAdapter;
-import app.meetup.presenter.BasePresenter;
+import app.meetup.presenter.impl.BasePresenter;
 
 /**
  * A simple {@link Fragment} subclass.

@@ -8,11 +8,19 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import app.meetup.presenter.BasePresenter;
+import app.meetup.presenter.impl.BasePresenter;
 
 public abstract class BaseFragment<T extends BasePresenter> extends Fragment {
 
     private T presenter;
+
+    public T getPresenter() {
+        return presenter;
+    }
+
+    public void setPresenter(T presenter) {
+        this.presenter = presenter;
+    }
 
     protected abstract int getLayoutResource();
 

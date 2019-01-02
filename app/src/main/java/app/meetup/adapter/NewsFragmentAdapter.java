@@ -11,16 +11,15 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 
-import java.util.ArrayList;
-
 import app.meetup.R;
-import app.meetup.model.News;
+import app.meetup.model.entity.News;
+import io.realm.RealmResults;
 
 public class NewsFragmentAdapter extends RecyclerView.Adapter<NewsFragmentAdapter.DataViewHolder> {
-    private ArrayList<News> mList;
+    private RealmResults<News> mList;
     private Context mContext;
 
-    public NewsFragmentAdapter(Context context, ArrayList<News> list) {
+    public NewsFragmentAdapter(Context context, RealmResults<News> list) {
         mList = list;
         mContext = context;
     }

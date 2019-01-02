@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import app.meetup.R;
-import app.meetup.presenter.BasePresenter;
+import app.meetup.presenter.impl.BasePresenter;
 
 public class PupolarFragment extends BaseFragment {
     @Override

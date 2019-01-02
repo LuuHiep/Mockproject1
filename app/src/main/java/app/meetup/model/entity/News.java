@@ -1,10 +1,14 @@
-package app.meetup.model;
+package app.meetup.model.entity;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class News {
+import io.realm.RealmObject;
+import io.realm.annotations.PrimaryKey;
 
+public class News extends RealmObject {
+
+    @PrimaryKey
     @SerializedName("id")
     @Expose
     private Integer id;

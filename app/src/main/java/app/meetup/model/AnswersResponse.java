@@ -3,7 +3,10 @@ package app.meetup.model;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class ListNewsAnswersResponse {
+import io.realm.RealmModel;
+import io.realm.RealmObject;
+
+public class AnswersResponse extends RealmObject {
     @SerializedName("status")
     @Expose
     private Integer status;
